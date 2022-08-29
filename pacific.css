@@ -75,6 +75,16 @@ th, td {
 }
 td {text-align: center; }
 tr:nth-of-type(even) { background-color: #F5FAFC; }
+label {
+	display: block;
+	float: left;
+	width: 8em;
+	padding-right: 1em;
+}
+input, textarea {
+	display: block;
+	margin-bottom: 1em;
+}
 .resort { 
 	color: #000033;
 	font-size: 1.2em; 
@@ -110,6 +120,7 @@ tr:nth-of-type(even) { background-color: #F5FAFC; }
 	background-repeat: no-repeat; 
 	margin-left: 200px; 
 }
+#mySubmit { margin-left: 10em; }
 #mobile { display: none; }
 #desktop { display: none; }
 @media only screen and (max-width: 1024px) {
