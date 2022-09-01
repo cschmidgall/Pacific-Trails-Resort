@@ -85,6 +85,7 @@ input, textarea {
 	display: block;
 	margin-bottom: 1em;
 }
+video { float: right; margin: 2em; }
 .resort { 
 	color: #000033;
 	font-size: 1.2em; 
